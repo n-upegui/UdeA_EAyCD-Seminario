@@ -1,4 +1,4 @@
-# Repositorio dedicado para compartir los avances de la monografía para la Especialización en Analítica y Ciencia de Datos de la Universidad de Antioquia
+# Repositorio dedicado para compartir los avances de la monografía de la Especialización en Analítica y Ciencia de Datos de la Universidad de Antioquia
 
 ### Propuesta de Proyecto
 Precisar los alcances del fenómeno de la población habitante de calle desde una perspectiva social y de salud pública en el territorio de Medellín.
