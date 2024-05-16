@@ -15,10 +15,15 @@ Para realizar la carga del dataset es necesario realizar los siguientes pasos
 
 ### 3.1.2 Iniciar la ejecución de la sección `1. Carga de los datos` del notebook para realizar la descarga y montaje del dataset **Motor_Vehicle_Collisions_-_Crashes.csv**. Obtenido de [Data.gov](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 
-#### 3.1.2.1 Paso 1: 
+#### Paso 1: 
 * Al ejecutar la primera celda se generará la siguiente ventana emergente, en esta ventana se debe dar clic en permitir.
 
-<img src="https://github.com/n-upegui/img/blob/main/Paso_1.png" style="height: 60%; width:60%;"/></a>
+<img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_1.png" style="height: 60%; width:60%;"/></a>
+
+#### Paso 2: 
+* Al dar clic en permitir se generará la siguiente ventana emergente, en esta ventana se debe dar clic en la cuenta de gmail con la que se va a generar el permiso de acceso a Google Colaboratory.
+
+<img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_2.png" style="height: 60%; width:60%;"/></a>
 
 
 
