@@ -51,33 +51,36 @@ Predecir la cantidad de víctimas fatales en una colisión vehícular en la ciud
 # 3. Pasos Iniciales para la ejecución del Notebook del proyecto:
 
 ## 3.1 Carga del dataset
+
+### :warning:**Nota:** La ejecución del notebook completo con los parámetros actuales (cargando un 0.1% de los datos) puede tomar entre 2 y 3 minutos :hourglass_flowing_sand: dependiendo del equipo que se utilice 
+
 ### Para realizar la carga del dataset es necesario realizar los siguientes pasos:
 
 #### A. Iniciar la ejecución de las librerías en la sección `B. Carga de Librerías` del notebook [`ME03-G17-[1020418701].ipynb`](https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/momentos_evaluativos/ME03-G17-%5B1020418701%5D.ipynb) para genrar primer paso de acceso al Google Drive
 
 #### B. Iniciar la ejecución de la sección `1. Carga de los datos` del notebook para realizar la descarga y montaje del dataset [Motor_Vehicle_Collisions_-_Crashes.csv](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 
-#### Paso 1: 
+#### :green_circle: Paso 1: 
 * Al ejecutar la primera celda se generará la siguiente ventana emergente, en esta ventana se debe dar clic en permitir.
 
 <img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_1.png" style="height: 60%; width:60%;"/></a>
 
-#### Paso 2: 
+#### :green_circle: Paso 2: 
 * Al dar clic en permitir se generará la siguiente ventana emergente, en esta ventana se debe dar clic en la cuenta de gmail con la que se va a generar el permiso de acceso a Google Colaboratory.
 
 <img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_2.png" style="height: 60%; width:60%;"/></a>
 
-#### Paso 3: 
+#### :green_circle: Paso 3: 
 * Presionar en continuar.
 
 <img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_3.png" style="height: 60%; width:60%;"/></a>
 
-#### Paso 4: 
+#### :green_circle: Paso 4: 
 * Seleccionar al menos la primera opción de ver, modificar, crear y eliminar archivos de Google Drive, o se puede seleccionar todo.
 
 <img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_4.png" style="height: 60%; width:60%;"/></a>
 
-#### Paso 5: 
+#### :green_circle: Paso 5: 
 * Dar clic en continuar.
 
 <img src="https://github.com/n-upegui/UdeA_EAyCD-Seminario/blob/main/image/Paso_5.png" style="height: 60%; width:60%;"/></a>
