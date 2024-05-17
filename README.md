@@ -129,14 +129,39 @@ Se utiliza la librería [`sklearn.model_selection`](https://scikit-learn.org/sta
 * Se utiliza una mezcla aleatoria inicial para garantizar que si existe un ordenamiento de los datos por alguna razón, estos no afecten las divisiones de `train` y `test`
 
 ---
-# *****************************************************************************************#
+
 # 7. Análisis de los resultados del proyecto:
-Al analizar el comportamiento de los datos se 
+Al analizar el comportamiento de los datos con las variables categóricas, se puede inferir lo siguiente:
+
+* Las ciudades que más cuentan con registros de accidentes son Brooklin y Queens
+* Para el análisis de los factores que contribuyen a la colisión está como mayoritario el registro `no especificado` que no aporta información al modelo, pero siguen los valores de `desatención/distracción del conductor`, `no ceder el paso` y `no respetar la distancia entre vehículos`. Que ***podrían*** aportar al análisis de los resultados y a las predicciones del modelo.
 
 Se evalúa el comportamiento de las variables numéricas y se obtiene el siguiente resultado:
 
 * Al parecer existe una aparente correlación positiva entre las variables `'NUMBER OF MOTORIST INJURED'` y `'NUMBER OF PERSONS INJURED'` lo que se podría explicar dado que un accidente en motocicleta hay una muy alta probabilidad de que el conductor salga lastimado, lo que no se ve por ejemplo con vehículos con mayor protección tales como carros, camionestas, buses, etc.
 * Las demás variables parecen no tener un comportamiento relacional para el modelo, dado que no presentan tendencias identificables a simple vista.
+* Al realizar una matriz de correlación entre las variables numéricas, se logra identificar que la aparente correlación entre las variables `'NUMBER OF MOTORIST INJURED'` y `'NUMBER OF PERSONS INJURED'` si tiene un comportamiento lineal positivo dada la correlación de un 88% entre ambas variables.
+
+Para el desarrollo del proyecto, con el ánimo de realizar un reconocimiento visual del comportamiento de los accidentes viales en la ciudad de Nueva York, se optó por validar los casos de `personas muertas en accidentes viales`e intentar comprender si existe un patrón de comportamiento de atropellamientos mortales en algún sector específico de la ciudad.
+
+Con los datos que se tomaron para este ejemplo, se ve que los accidentes viales tienen una pequeña aglomeración en el área sur de Manhattan (cerca al área empresarial) y central park. Pero sería necesario analizar este comportamiento con los datos completos para validar la hipótesis, aunque podría ser un comportamiento acertado dada la alta afluencia de personas y vehículos en dicha área.
+
+---
+
+# 8. Referencias:
+
+* [Base de Datos: *Motor Vehicle Collisions - Crashes*](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
+*  [Librería Scikit-Learn: sklearn.model_selection.train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+
+* [Notebooks](https://colab.research.google.com/drive/1-dI12bCSAgWu6lfzVkViedtJva21fQK7)
+Autor: [David Villanueva Valdes](mailto:david.villanueva@udea.edu.co)
+    * ACT02 Towards Data Monography.ipynb
+
+* [Notebooks](https://drive.google.com/drive/folders/1jmjSNu9xSOjExauNBp-no3wEep0OtQLl)
+Autor: [Jorge Bedoya](mailto:jabedoyap79@gmail.com)
+    * 00_PreparaciónDataset01Regresion.ipynb
+    * 02_RegresionLineal.ipynb
+    * 03_RegresionLineal(2da Parte).ipynb
 
 ---
 
